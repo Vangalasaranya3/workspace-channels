@@ -1,0 +1,8 @@
+const createChannel = async () => {
+  await api.post("/channels", {
+    name,
+    description
+  });
+
+  alert("Channel Created");
+};
